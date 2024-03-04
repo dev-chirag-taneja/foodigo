@@ -1,0 +1,147 @@
+/**************************/
+/* MEALS SECTION */
+/**************************/
+
+.section-meals {
+  background: #e7f3f7;
+  margin: 0 auto;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meal-card-overview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 140rem;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* MEAL CARDS */
+.meal-card {
+  border: 1px solid rgba(230, 230, 230, 0.6);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  transition: all 200ms ease-in;
+}
+
+.meal-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.184);
+  background: white;
+}
+
+.meal-card img {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.meal-card-body {
+  padding: 1.2rem 2rem;
+}
+
+.meal-card-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 1rem;
+}
+
+.meal-card-desc {
+  color: #626262;
+  font-size: 1.2rem;
+  margin: auto 1rem 1rem 1rem;
+}
+
+.meal-stats {
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin: 0 2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.meal-stats li {
+  padding-bottom: 1rem;
+  vertical-align: middle;
+}
+
+.meal-stats i {
+  color: #118ab2;
+  font-size: 2rem;
+  margin-right: 1.2rem;
+}
+
+/* MEAL TYPES LIST EXPANDED IN MEAL SECTION */
+.meal-types-list {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+.meal-types-list li {
+  display: inline;
+  padding: 0.6rem 0.8rem;
+  border-radius: 50px;
+  margin: 0.5rem;
+}
+
+.lactose {
+  background: #e8c2d4;
+}
+
+.vegan {
+  background: #64dc77;
+}
+
+.keto {
+  background: #cec99e;
+}
+
+.paleo {
+  background: #eed374;
+}
+
+.pesca {
+  background: #c2e1e8;
+}
+
+.kid {
+  background: #f39f52;
+}
+.fodmap {
+  background: #ffa9a9;
+}
+
+.vegetarian {
+  background: #82ae8e;
+}
+
+.gluten {
+  background: #d7beff;
+}
+
+.meal-types-overview {
+  margin: 4rem auto;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.meal-types-overview span {
+  color: #118ab2;
+}
+
+.meal-types-overview .meal-types-list {
+  margin: 3rem 2rem;
+  transform: scale(1.2);
+  line-height: 4rem;
+}
+
+.meal-types-overview .meal-types-list li {
+  white-space: nowrap;
+}

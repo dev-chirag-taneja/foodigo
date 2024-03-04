@@ -1,0 +1,79 @@
+/**************************/
+/* HERO SECTION */
+/**************************/
+.section-hero {
+  background: #e7f3f7;
+  padding: 5rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.heading-primary {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn-mr {
+  margin-right: 1.6rem;
+}
+
+.hero-img {
+  width: 100%;
+  /* height: 80%; */
+}
+
+.hero-customer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+
+.customer-img-wrapper {
+  display: flex;
+}
+
+.customer-img-wrapper img {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  width: 6rem;
+  margin-right: -1.5rem;
+}
+
+.customer-data {
+  font-size: 1.8rem;
+}
+
+.customer-data span:first-of-type {
+  color: #0e6e8e;
+  font-weight: 700;
+}
+
+.customer-data i {
+  color: #b80000;
+  font-weight: 700;
+}
+
+.customer-data span:last-of-type {
+  color: #585858;
+  font-size: 1.5rem;
+  font-weight: 500;
+}

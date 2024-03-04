@@ -1,0 +1,121 @@
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
+
+span {
+  font-weight: 700;
+}
+
+small {
+  font-size: 1.4rem;
+  margin-top: 1.6rem;
+}
+
+/* GENERAL HEADING STYLING */
+.subheading {
+  color: #118ab2;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.body-heading {
+  font-size: 4.4rem;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 6.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.body-heading span {
+  color: #118ab2;
+}
+
+.heading-left {
+  text-align: start;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #118ab2;
+  color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #0f7ca0;
+  color: #fff;
+}
+
+.btn-outline:link,
+.btn-full:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #b8dce8;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}

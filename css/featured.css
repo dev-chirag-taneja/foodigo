@@ -1,0 +1,19 @@
+/**************************/
+/* FEATURED LOGOS */
+/**************************/
+
+.featured-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.138);
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 6rem 4rem;
+}
+
+.featured-logos img {
+  object-fit: contain;
+  height: 2.8rem;
+}
