@@ -12,8 +12,8 @@ body {
   font-weight: 400;
   color: #555;
   scroll-behavior: smooth;
-  font-size: 62.5%;
-  /* overflow-x: hidden; */
+  font-size: 62.5%; /* 10px / 16px = .625px = 62.5% */
+  overflow-x: hidden;
 }
 img {
   display: block;
@@ -51,7 +51,7 @@ small {
   text-align: center;
 }
 
-.body-heading {
+.heading-secondary {
   font-size: 4.4rem;
   font-weight: 500;
   letter-spacing: -0.5px;
@@ -60,7 +60,7 @@ small {
   text-align: center;
 }
 
-.body-heading span {
+.heading-secondary span {
   color: #118ab2;
 }
 

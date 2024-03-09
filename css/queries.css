@@ -1,0 +1,7 @@
+/* 1rem = 1em = 16px */
+@import url("./queries/desktop.css");
+@import url("./queries/landscape.css");
+@import url("./queries/portrait.css");
+@import url("./queries/navigation.css");
+@import url("./queries/tablet.css");
+@import url("./queries/mobile.css");

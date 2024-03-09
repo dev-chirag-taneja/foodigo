@@ -1,0 +1,72 @@
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+    
+  /* GENERAL  */
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  /* FEATURED SECTION */
+  .featured-logos img {
+    height: 1.6rem;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .section-how {
+    padding: 4rem 0;
+  }
+
+  .how-full-wrapper,
+  .how-full-wrapper-switch {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+    margin: 2rem;
+  }
+
+  .how-img-wrapper .mobile-bg:last-child {
+    margin-bottom: 14rem;
+  }
+
+  /* PRICING CARDS */
+  .price-card-wrapper {
+    flex-direction: column;
+  }
+
+  .pricing-card {
+    width: 36rem;
+    height: 55rem;
+  }
+
+  .pricing-list-items li {
+    line-height: 3rem;
+  }
+
+  .pricing-card h1 {
+    font-size: 5rem;
+  }
+
+  /* CTA */
+  .section-cta {
+    padding: 2rem;
+  }
+
+  /* FOOTER */
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+}

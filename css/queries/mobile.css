@@ -1,0 +1,105 @@
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  /* GENERAL */
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  /* HERO */
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  /* FEATURED LOGOS */
+  .logos img {
+    height: 1.2rem;
+  }
+
+  /* MEAL CARDS */
+  .meal-types-overview .meal-types-list {
+    margin: 1rem;
+    transform: scale(1);
+  }
+
+  .meal-card-overview {
+    grid-template-columns: auto;
+  }
+
+  .meal-card {
+    width: 40rem;
+  }
+
+  .meal-card-body {
+    padding: 2rem;
+  }
+
+  .meal-card-heading {
+    font-size: 2.4rem;
+  }
+
+  .meal-card-desc {
+    font-size: 1.6rem;
+  }
+
+  .meal-stats {
+    font-size: 2rem;
+  }
+
+  .meal-types-overview br {
+    display: none;
+  }
+
+  /* TESTIMONIALS */
+  .section-testimonials {
+    padding: 3rem;
+    gap: 3rem;
+  }
+
+  .testimonials-details {
+    gap: 1rem;
+    grid-template-columns: auto;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* MEMBER INFO BANNER */
+  .member-info-banner {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+  }
+
+  /* CTA */
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+
+  /* FOOTER */
+  .grid {
+    row-gap: 4.8rem;
+  }
+}

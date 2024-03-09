@@ -1,0 +1,83 @@
+/* Below 944px (Portrait Tablet)*/
+@media screen and (max-width: 59rem) {
+  /* GENERAL */
+  html {
+    font-size: 50%; /* 8px */
+  }
+  .heading-left {
+    text-align: center;
+  }
+
+  /* HERO */
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+  .hero-text-box {
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+    margin: auto;
+  }
+  .hero-customer {
+    margin-top: 3.2rem;
+  }
+  .featured-logos img {
+    height: 2.4rem;
+  }
+  .how-step-num {
+    font-size: 7.4rem;
+  }
+
+  /* MEAL CARDS */
+  .meal-card-overview {
+    grid-template-columns: repeat(2, minmax(28rem, 38rem));
+    gap: 3rem;
+  }
+  .meal-card .meal-types-list li {
+    padding: 0.6rem 0.8rem;
+  }
+  .meal-card .meal-types-list {
+    font-size: 1.3rem;
+    line-height: 3rem;
+  }
+  .meal-card-heading {
+    font-size: 2.2rem;
+    margin: 1rem 0.6rem;
+  }
+  .meal-card-desc {
+    margin: auto 0.6rem 0.6rem 0.6rem;
+    font-size: 1.4rem;
+  }
+  .meal-stats {
+    font-size: 1.8rem;
+  }
+  .meal-stats li {
+    padding-bottom: 1rem;
+  }
+
+  /* TESTIMONIALS */
+  .section-testimonials {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .testimonials-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* CTA */
+  .cta {
+    grid-template-columns: 2fr 3fr; /* 2/5 = 40% 3/5 = 60%*/
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn-form {
+    margin-top: 1.2rem;
+  }
+}

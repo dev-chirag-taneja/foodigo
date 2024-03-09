@@ -1,0 +1,26 @@
+/* Below 1200px (Landscape Tablet)*/
+@media screen and (max-width: 75em) {
+  html,
+  body {
+    font-size: 56.25%; /* 9px */
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}

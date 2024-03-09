@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e7f3f7;
-  height: 9.6rem;
+  /* background-color: #e7f3f7; */
+  height: 7.6rem;
   padding: 0 4.8rem;
   position: relative;
 }
@@ -44,19 +44,15 @@ nav {
   gap: 4.8rem;
 }
 
-main-nav-list a {
-  padding: 1rem;
-  transition: all 150ms ease-in-out;
-}
-
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.8rem;
   transition: all 0.3s;
+  padding: 1rem;
 }
 
 .main-nav-link:hover,
@@ -75,4 +71,21 @@ main-nav-list a {
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #0f7ca0;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-mobile-nav i {
+  color: #333;
+  font-size: 3.6rem;
+}
+
+.btn-mobile-nav .fa-close {
+  display: none;
 }
