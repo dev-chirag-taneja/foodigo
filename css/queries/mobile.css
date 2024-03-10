@@ -28,6 +28,11 @@
     height: 1.2rem;
   }
 
+  /* HOW IT WORKS  */
+  .how-img-wrapper:nth-child(2){
+   order: -1;
+  }
+
   /* MEAL CARDS */
   .meal-types-overview .meal-types-list {
     margin: 1rem;
@@ -76,8 +81,6 @@
   .gallery {
     grid-template-columns: repeat(4, 1fr);
   }
-
-
 
   /* CTA */
   .cta {
