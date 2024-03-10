@@ -3,7 +3,6 @@
 /**************************/
 
 @media (max-width: 44em) {
-    
   /* GENERAL  */
   .heading-secondary {
     margin-bottom: 4.8rem;
@@ -37,7 +36,7 @@
   }
 
   .pricing-card {
-    width: 36rem;
+    /* width: 36rem; */
     height: 55rem;
   }
 
@@ -47,6 +46,13 @@
 
   .pricing-card h1 {
     font-size: 5rem;
+  }
+
+  /* MEMBER INFO BANNER */
+  .member-info-banner {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
   }
 
   /* CTA */
